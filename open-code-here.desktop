@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory
+X-KDE-Priority=TopLevel
+Actions=open-code-here
+
+[Desktop Action open-code-here]
+Name=Open Code here
+Icon=code-oss
+Exec=cd %d && /usr/bin/code-oss --no-sandbox --unity-launch .

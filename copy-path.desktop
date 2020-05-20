@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/all
+X-KDE-Priority=TopLevel
+Actions=copy-path
+
+[Desktop Action copy-path]
+Name=Copy Path
+Icon=edit-copy
+Exec=echo %U | tr -d '\n' | xclip -selection clipboard
