@@ -4,4 +4,4 @@ First check where your services folder is
 
     kf5-config --path services
 
-the copy the *.desktop files in the folder
+then copy the ServiceMenus folder into the services folder
