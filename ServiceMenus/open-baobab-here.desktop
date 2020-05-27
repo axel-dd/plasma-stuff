@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=Service
-X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+ServiceTypes=KonqPopupMenu/Plugin
 MimeType=inode/directory
 X-KDE-Priority=TopLevel
-Actions=open-baobab-here
+Actions=baobab-here
 
-[Desktop Action open-baobab-here]
-Name=Open Disk Usage Analyzer here
+[Desktop Action baobab-here]
+Name=Disk Usage Analyzer here
 Icon=org.gnome.baobab
 TryExec=baobab
 Exec=baobab %f
