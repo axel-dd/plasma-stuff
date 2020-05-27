@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory
+X-KDE-Priority=TopLevel
+Actions=gitg-history
+
+[Desktop Action gitg-history]
+Name=gitg history
+Icon=org.gnome.gitg
+TryExec=gitg
+Exec=gitg --activity history --no-wd %f

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory
+X-KDE-Priority=TopLevel
+Actions=gitg-commit
+
+[Desktop Action gitg-commit]
+Name=gitg commit
+Icon=org.gnome.gitg
+TryExec=gitg
+Exec=gitg --activity commit --no-wd %f
