@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory
+X-KDE-Priority=TopLevel
+Actions=ungit-here
+
+[Desktop Action ungit-here]
+Name=ungit here
+Icon=ungit;git;git-cola
+TryExec=ungit
+Exec=cd %f && ungit
