@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory
+X-KDE-Priority=TopLevel
+Actions=gitahead-here
+
+[Desktop Action gitahead-here]
+Name=Open GitAhead here
+Icon=gitahead
+TryExec=gitahead
+Exec=gitahead %f
