@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory
+X-KDE-Priority=TopLevel
+Actions=xnview-here
+
+[Desktop Action xnview-here]
+Name=Open XnView Here
+Icon=/opt/xnviewmp/xnview.png
+TryExec=xnviewmp
+Exec=xnviewmp %f

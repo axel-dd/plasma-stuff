@@ -6,7 +6,7 @@ X-KDE-Priority=TopLevel
 Actions=baobab-here
 
 [Desktop Action baobab-here]
-Name=Disk Usage Analyzer here
+Name=Check Free Disk Space Here
 Icon=org.gnome.baobab
 TryExec=baobab
 Exec=baobab %f

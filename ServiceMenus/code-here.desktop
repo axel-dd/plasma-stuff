@@ -6,7 +6,7 @@ X-KDE-Priority=TopLevel
 Actions=code-here
 
 [Desktop Action code-here]
-Name=Code here
-Icon=code-oss
-TryExec=code-oss
-Exec=cd %f && code-oss --no-sandbox --unity-launch .
+Name=Open VSCode Here
+Icon=com.visualstudio.code
+TryExec=code
+Exec=cd %f && code --no-sandbox --unity-launch .
