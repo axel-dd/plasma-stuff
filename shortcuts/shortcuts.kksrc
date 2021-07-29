@@ -7,6 +7,92 @@ Switch keyboard layout to English (US, intl., with dead keys)=
 Switch keyboard layout to English (intl., with AltGr dead keys)=
 Switch to Next Keyboard Layout=
 
+[StandardShortcuts]
+AboutApp=
+AboutKDE=
+Activate Next Tab=Ctrl+]; Ctrl+PgDown
+Activate Previous Tab=Ctrl+[; Ctrl+PgUp
+ActualSize=Ctrl+0
+AddBookmark=Ctrl+B
+Back=Back; Alt+Left
+BackwardWord=Ctrl+Left
+Begin=Ctrl+Home
+BeginningOfLine=Home
+Clear=
+Close=Ctrl+Esc; Ctrl+W
+ConfigureNotifications=
+ConfigureToolbars=
+Copy=Ctrl+C; Ctrl+Ins
+CreateFolder=F10
+Cut=Shift+Del; Ctrl+X
+DeleteFile=Shift+Del
+DeleteWordBack=Ctrl+Backspace
+DeleteWordForward=Ctrl+Del
+Deselect=Ctrl+Shift+A
+DocumentBack=Alt+Shift+Left
+DocumentForward=Alt+Shift+Right
+Donate=
+EditBookmarks=
+End=Ctrl+End
+EndOfLine=End
+Find=Ctrl+F
+FindNext=F3
+FindPrev=Shift+F3
+FitToHeight=
+FitToPage=
+FitToWidth=
+Forward=Alt+Right; Forward
+ForwardWord=Ctrl+Right
+FullScreen=Ctrl+Shift+F
+Goto=
+GotoLine=Ctrl+G
+GotoPage=
+Help=F1
+Home=Alt+Home; Home Page
+KeyBindings=
+Mail=
+MoveToTrash=Del
+New=Ctrl+N
+Next=PgDown
+NextCompletion=Ctrl+Down
+Open=Ctrl+O
+OpenRecent=
+Paste=Ctrl+V; Shift+Ins
+Paste Selection=Ctrl+Shift+Ins
+Preferences=Ctrl+Shift+,
+PrevCompletion=Ctrl+Up
+Print=Ctrl+P
+PrintPreview=
+Prior=PgUp
+Quit=Ctrl+Q
+Redo=Ctrl+Shift+Z
+Reload=F5; Refresh
+RenameFile=F2
+Replace=Ctrl+R
+ReportBug=
+Revert=
+RotateDown=Down
+RotateUp=Up
+Save=Ctrl+S
+SaveAs=Ctrl+Shift+S
+SaveOptions=
+SelectAll=Ctrl+A
+ShowHideHiddenFiles=Alt+.; Ctrl+H
+ShowMenubar=Ctrl+M
+ShowStatusbar=
+ShowToolbar=
+Spelling=
+SubstringCompletion=Ctrl+T
+SwitchApplicationLanguage=
+TextCompletion=Ctrl+E
+TipofDay=
+Undo=Ctrl+Z
+Up=Alt+Up
+WhatsThis=Shift+F1
+Zoom=
+ZoomIn=Ctrl++; Ctrl+=
+ZoomOut=Ctrl+-
+
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
@@ -17,7 +103,7 @@ Toggle Touchpad=Touchpad Toggle
 
 [kded5][Global Shortcuts]
 Show System Activity=Ctrl+Esc
-display=Meta+P; Display
+display=Display; Meta+P
 
 [khotkeys][Global Shortcuts]
 {2565f77c-efd2-4f84-aa81-83f58aaa176c}=Meta+T; Ctrl+Alt+T
@@ -34,13 +120,9 @@ increase_volume=Volume Up
 mic_mute=Microphone Mute
 mute=Volume Mute
 
-[krunner.desktop][Global Shortcuts]
-RunClipboard=Alt+Shift+F2
-_launch=Meta+Space; Alt+Space; Search; Alt+F2
-
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Screensaver; Ctrl+Alt+L; Meta+L
+Lock Session=Ctrl+Alt+L; Screensaver; Meta+L
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 Reboot Without Confirmation=
@@ -70,7 +152,7 @@ Nachtfarben umschalten=
 Remove Window From Group=
 Setup Window Shortcut=
 Show Desktop=Meta+D
-ShowDesktopGrid=Ctrl+F8
+ShowDesktopGrid=Meta+W; Ctrl+F8
 Sphere=
 Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=Meta+Ctrl+Down
@@ -232,12 +314,18 @@ view_zoom_out=Meta+-
 mediavolumedown=
 mediavolumeup=
 nextmedia=Media Next
+pausemedia=Media Pause
+playmedia=
 playpausemedia=Media Play
 previousmedia=Media Previous
 stopmedia=Media Stop
 
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E
+
+[org.kde.krunner.desktop][Global Shortcuts]
+RunClipboard=Alt+Shift+F2
+_launch=Alt+Space; Meta+R; Alt+F2; Meta+Space; Search
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
 _launch=Meta+.
@@ -275,10 +363,14 @@ activate task manager entry 9=Meta+9
 activate widget 146=
 activate widget 152=
 activate widget 178=
-activate widget 179=
-activate widget 181=
+activate widget 192=
+activate widget 196=
+activate widget 199=
 activate widget 20=
+activate widget 220=
 activate widget 23=
+activate widget 261=Alt+F1
+activate widget 284=
 clear-history=
 clipboard_action=Ctrl+Alt+X
 cycleNextAction=
