@@ -7,6 +7,7 @@ Actions=copy-path
 
 [Desktop Action copy-path]
 Name=Copy Path
+Name[nl]=Locatie kopiëren
 Icon=edit-copy
 TryExe=xclip
 Exec=echo %U | tr -d '\n' | xclip -selection clipboard
